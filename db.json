@@ -1,422 +1,601 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "id": "1",
+      "username": "tuan",
+      "password": "tuan",
+      "dob": "tuan",
+      "email": "tuan",
+      "address": "tuan",
+      "sex": "khac"
     },
     {
-      "id": 2,
-      "title": "json-server-2",
-      "author": "typicode"
+      "id": "5830",
+      "address": "Quia pariatur Id o",
+      "sex": "Nữ",
+      "username": "Quibusdam id a quae ",
+      "password": "Obcaecati veniam mi",
+      "dob": "1980-02-20",
+      "email": "anhtuan@gmai.com"
     },
     {
-      "id": 3,
-      "title": "Cát Tường",
-      "author": "typicode"
+      "id": "1703",
+      "address": "Est quis sunt culpa",
+      "sex": "Nữ",
+      "username": "Inventore architecto",
+      "password": "Esse enim quia conse",
+      "dob": "1900-11-14",
+      "email": "anhtuan1@gmai.com"
+    },
+    {
+      "id": "a757",
+      "address": "18/72 Khúc Thừa Dụ, phường Thủy Dương, Thị xã Hương Thủy",
+      "sex": "Nữ",
+      "username": "admin",
+      "password": "123123",
+      "dob": "1995-05-05",
+      "email": "tuyettuyet@gmail.com",
+      "role": "admin",
+      "name": "Bà Tuyết"
+    },
+    {
+      "id": "8ef8",
+      "address": "Pariatur Tenetur no",
+      "sex": "Nam",
+      "username": "Voluptatem Aspernat",
+      "password": "Nisi et voluptatum c",
+      "dob": "2005-06-28",
+      "email": "tuyettuyet1@gmail.com",
+      "role": "client"
+    },
+    {
+      "address": "Quibusdam molestias ",
+      "sex": "Nam",
+      "username": "Aperiam dolor dignis",
+      "password": "Voluptatem alias ven",
+      "dob": "1971-11-28",
+      "email": "tuyettuyet2@gmail.com",
+      "role": "client",
+      "id": "Vr8kW-J"
+    },
+    {
+      "address": "Khúc Thừa Dụ",
+      "sex": "Nam",
+      "username": "anhtuan",
+      "password": "123123",
+      "dob": "2006-01-10",
+      "email": "anhtuan12@gmai.com",
+      "role": "client",
+      "id": "LM-fBU5"
+    },
+    {
+      "address": "Ea fugit quia deser",
+      "sex": "Khác",
+      "username": "In velit inventore t",
+      "password": "Pa$$w0rd!",
+      "dob": "2004-08-23",
+      "email": "a@gmail.com",
+      "role": "client",
+      "created": "2024-5-22",
+      "id": "L0McOF3"
     }
   ],
-  "comments": [
+  "food": [
     {
+      "name": "Bánh lọc",
+      "image": {
+        "asset_id": "5a8ed93f96ec24b8948a8766c059fc8f",
+        "public_id": "zqkurdjelspu0rdenfsw",
+        "version": 1716364779,
+        "version_id": "28ed8298d3ee83c5fcbf220d3ca18a3e",
+        "signature": "53df0331a3e9b885595375cc3e263cd9eb1dae1c",
+        "width": 640,
+        "height": 466,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T07:59:39Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 76518,
+        "type": "upload",
+        "etag": "b00ff20c5861ae52c4fdea4ece39eafa",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716364779/zqkurdjelspu0rdenfsw.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716364779/zqkurdjelspu0rdenfsw.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "3000",
+      "description": "Bánh lọc",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
       "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "customers": [
+      "type": "food"
+    },
     {
+      "name": "Cơm hến",
+      "image": {
+        "asset_id": "1c491cd8165585edcfa3184e97bb213b",
+        "public_id": "unkaracrstkb5xpwr5ag",
+        "version": 1716364985,
+        "version_id": "3981e361ac5343ceae30c0e245e76048",
+        "signature": "8fc99de5bd9d06f2a01464961e66c5477f7c0d0f",
+        "width": 960,
+        "height": 960,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T08:03:05Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 129119,
+        "type": "upload",
+        "etag": "ab3ad86c73454b14c34f96b0319c3aea",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716364985/unkaracrstkb5xpwr5ag.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716364985/unkaracrstkb5xpwr5ag.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "15000",
+      "description": "Cơm hến",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
       "id": 2,
-      "fullName": "Lenore Pruitt",
-      "email": "hucor@mailinator.com",
-      "phone": "+1 (459) 697-6702",
-      "locationRegion": {
-        "id": 4,
-        "provinceId": "14",
-        "provinceName": "Tỉnh Sơn La",
-        "districtId": "121",
-        "districtName": "Huyện Bắc Yên",
-        "wardId": "03856",
-        "wardName": "Thị trấn Bắc Yên",
-        "address": "Beatae rerum qui dol"
-      },
-      "balance": 0
+      "type": "food"
     },
     {
+      "name": "Bún thịt nướng nước lèo",
+      "image": {
+        "asset_id": "5a9e8f9986b4d2ce33b81fd55076082e",
+        "public_id": "omibzeqehixyztjgcyqb",
+        "version": 1716365012,
+        "version_id": "34c76b21eea43fad6ed7243e0c60d800",
+        "signature": "61cecc79f2d532f4aab26b44140d57b8829dc47d",
+        "width": 960,
+        "height": 720,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T08:03:32Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 112385,
+        "type": "upload",
+        "etag": "ba9931e3af7f706d19e4a36d25603332",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716365012/omibzeqehixyztjgcyqb.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716365012/omibzeqehixyztjgcyqb.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "030000",
+      "description": "Bún thịt nướng nước lèo",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
       "id": 3,
-      "fullName": "Winter Hyde",
-      "email": "qucuwiqy@mailinator.com",
-      "phone": "+1 (518) 692-9872",
-      "locationRegion": {
-        "id": 5,
-        "provinceId": "92",
-        "provinceName": "Thành phố Cần Thơ",
-        "districtId": "925",
-        "districtName": "Huyện Cờ Đỏ",
-        "wardId": "31261",
-        "wardName": "Thị trấn Cờ Đỏ",
-        "address": "Culpa veritatis par"
-      },
-      "balance": 0
+      "type": "food"
     },
     {
+      "name": "Bánh bèo",
+      "image": {
+        "asset_id": "5b8316ad60476bf6b25d685980539d99",
+        "public_id": "wnksndqib1au0q26kucl",
+        "version": 1716365076,
+        "version_id": "3ae542c45a16161cd8ae1851613d5467",
+        "signature": "b2a33dbbdedbb7f914f803904e0f635c8a980f9a",
+        "width": 600,
+        "height": 400,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T08:04:36Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 107297,
+        "type": "upload",
+        "etag": "8f0981204fc68db84a2278a09c6b7e97",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716365076/wnksndqib1au0q26kucl.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716365076/wnksndqib1au0q26kucl.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "1000",
+      "description": "Bánh bèo",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
       "id": 4,
-      "fullName": "Hermione Newton",
-      "email": "pyrolod@mailinator.com",
-      "phone": "+1 (997) 741-8574",
-      "locationRegion": {
-        "id": 6,
-        "provinceId": "64",
-        "provinceName": "Tỉnh Gia Lai",
-        "districtId": "627",
-        "districtName": "Huyện Chư Păh",
-        "wardId": "23734",
-        "wardName": "Thị trấn Ia Ly",
-        "address": "Culpa qui architect"
-      },
-      "balance": 0
+      "type": "food"
     },
     {
+      "name": "Bánh nậm",
+      "image": {
+        "asset_id": "3d4626f44b96cfd31dd9ca49822b62dd",
+        "public_id": "flocbpopjpygvydpztxk",
+        "version": 1716365144,
+        "version_id": "b964c44ac239e0793e903a9917da6037",
+        "signature": "30b07968843dd6b8a3aa3f0aac5822e978ced3e6",
+        "width": 1000,
+        "height": 1000,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T08:05:44Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 139433,
+        "type": "upload",
+        "etag": "89eee5162e5e1d6f83b8ea9a9bcbeb88",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716365144/flocbpopjpygvydpztxk.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716365144/flocbpopjpygvydpztxk.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "2000",
+      "description": "Bánh nậm",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
       "id": 5,
-      "fullName": "Myles Conner",
-      "email": "rykocina@mailinator.com",
-      "phone": "+1 (487) 431-3402",
-      "locationRegion": {
-        "id": 7,
-        "provinceId": "49",
-        "provinceName": "Tỉnh Quảng Nam",
-        "districtId": "515",
-        "districtName": "Huyện Bắc Trà My",
-        "wardId": "20899",
-        "wardName": "Thị trấn Trà My",
-        "address": "Aliqua Sed id ut id"
-      },
-      "balance": 0
+      "type": "food"
     },
     {
+      "name": "Bánh ướt",
+      "image": {
+        "asset_id": "ec232f2659f70bd00335d5f3bb9bffa8",
+        "public_id": "kc9svjhyvogwz7dddgfi",
+        "version": 1716365186,
+        "version_id": "a099fc73d0d52206820be168774dfe1b",
+        "signature": "534455f3b9499dd6f40c65b8c806b1e82ed9a38f",
+        "width": 1200,
+        "height": 630,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T08:06:26Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 77477,
+        "type": "upload",
+        "etag": "e09df4dac1804c0631b4a56dabc171a0",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716365186/kc9svjhyvogwz7dddgfi.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716365186/kc9svjhyvogwz7dddgfi.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "30000",
+      "description": "Bánh ướt",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
       "id": 6,
-      "fullName": "Randall Head",
-      "email": "bepix@mailinator.com",
-      "phone": "+1 (497) 177-7633",
-      "locationRegion": {
-        "id": 8,
-        "provinceId": "11",
-        "provinceName": "Tỉnh Điện Biên",
-        "districtId": "100",
-        "districtName": "Huyện Điện Biên",
-        "wardId": "03359",
-        "wardName": "Xã Hẹ Muông",
-        "address": "Nisi rerum irure cum"
-      },
-      "balance": 0
+      "type": "food"
     },
     {
+      "name": "Hến xào",
+      "image": {
+        "asset_id": "40e25c3eb2357aa1020fc2c125754ea9",
+        "public_id": "pytvbutjhyftzw6quptn",
+        "version": 1716365535,
+        "version_id": "178316c5bb51f6abb3a410c62a35a78b",
+        "signature": "e0975246736382e388ec51c82dccd17aa69e1b4e",
+        "width": 1000,
+        "height": 666,
+        "format": "webp",
+        "resource_type": "image",
+        "created_at": "2024-05-22T08:12:15Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "pages": 1,
+        "bytes": 250752,
+        "type": "upload",
+        "etag": "3f46fcb6ec6fa292bdaff37b5245f442",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716365535/pytvbutjhyftzw6quptn.webp",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716365535/pytvbutjhyftzw6quptn.webp",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "40000",
+      "description": "Hến xào",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
       "id": 7,
-      "fullName": "Francesca Gillespie",
-      "email": "jamacyrino@mailinator.com",
-      "phone": "+1 (344) 418-9992",
-      "locationRegion": {
-        "id": 9,
-        "provinceId": "02",
-        "provinceName": "Tỉnh Hà Giang",
-        "districtId": "031",
-        "districtName": "Huyện Bắc Mê",
-        "wardId": "00991",
-        "wardName": "Thị trấn Yên Phú",
-        "address": "Sint quis iure sint"
-      },
-      "balance": 0
+      "type": "food"
     },
     {
+      "name": "Bún bò, giò, chả",
+      "image": {
+        "asset_id": "45c1ee5baeac285ee7dc60c269060960",
+        "public_id": "mej3wirwsnyqkgjyehtd",
+        "version": 1716365559,
+        "version_id": "428c0ba30b7482eb4045e71be690fb2e",
+        "signature": "59ff5876796b2da72c2c04d04c9a481ea7165e0a",
+        "width": 760,
+        "height": 442,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T08:12:39Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 86570,
+        "type": "upload",
+        "etag": "c6c817887bdddd581d4551be12138d34",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716365559/mej3wirwsnyqkgjyehtd.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716365559/mej3wirwsnyqkgjyehtd.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "30000",
+      "description": "Bún bò, giò, chả",
+      "status": {
+        "id": 2,
+        "name": "Ngừng bán"
+      },
       "id": 8,
-      "fullName": "Charde Turner",
-      "email": "siqal@mailinator.com",
-      "phone": "+1 (385) 898-3103",
-      "locationRegion": {
-        "id": 10,
-        "provinceId": "17",
-        "provinceName": "Tỉnh Hoà Bình",
-        "districtId": "154",
-        "districtName": "Huyện Cao Phong",
-        "wardId": "05089",
-        "wardName": "Thị trấn Cao Phong",
-        "address": "Accusantium ipsam du"
-      },
-      "balance": 0
+      "index": 2,
+      "type": "food"
     },
     {
+      "name": "Nem lụi",
+      "image": {
+        "asset_id": "1d144625ef31e6ed76ea272eb217f4b7",
+        "public_id": "avtwjpzdwodgnax2t3kv",
+        "version": 1716365594,
+        "version_id": "a890c620736660fde1642d3c08aa8067",
+        "signature": "7633562998a1aa72f4fc60529fae6bf16d840a38",
+        "width": 1024,
+        "height": 684,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T08:13:14Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 169483,
+        "type": "upload",
+        "etag": "a09e84c6e0861908e03461d157414395",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716365594/avtwjpzdwodgnax2t3kv.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716365594/avtwjpzdwodgnax2t3kv.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "10000",
+      "description": "Nem lụi",
+      "status": {
+        "id": 2,
+        "name": "Ngừng bán"
+      },
       "id": 9,
-      "fullName": "Rachel Williams",
-      "email": "xikexy@mailinator.com",
-      "phone": "+1 (514) 894-9178",
-      "locationRegion": {
-        "id": 11,
-        "provinceId": "94",
-        "provinceName": "Tỉnh Sóc Trăng",
-        "districtId": "942",
-        "districtName": "Huyện Châu Thành",
-        "wardId": "31569",
-        "wardName": "Thị trấn Châu Thành",
-        "address": "At optio et similiq"
-      },
-      "balance": 0
+      "index": 1,
+      "type": "food"
     },
     {
-      "id": 10,
-      "fullName": "Francesca Frederick",
-      "email": "zozerew@mailinator.com",
-      "phone": "+1 (564) 177-5934",
-      "locationRegion": {
-        "id": 12,
-        "provinceId": "37",
-        "provinceName": "Tỉnh Ninh Bình",
-        "districtId": "373",
-        "districtName": "Huyện Gia Viễn",
-        "wardId": "14464",
-        "wardName": "Thị trấn Me",
-        "address": "Ipsum et proident r"
+      "name": "Velit sed at non of",
+      "image": {
+        "asset_id": "24d407f0a947cb003cf41fdfd3a32837",
+        "public_id": "n23aliyamd0d6z1igvjr",
+        "version": 1716433701,
+        "version_id": "2e3863c166a1eb374a353cb84c8edaca",
+        "signature": "6baa14f0933e5ba6f1a74de2f04161cc66c6cad8",
+        "width": 736,
+        "height": 736,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-23T03:08:21Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 40124,
+        "type": "upload",
+        "etag": "6319e02c11b49c4cbbbb4bdc668915ff",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716433701/n23aliyamd0d6z1igvjr.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716433701/n23aliyamd0d6z1igvjr.jpg",
+        "folder": "",
+        "access_mode": "public"
       },
-      "balance": 0
+      "price": "32432",
+      "description": "Ut id neque doloribu",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
+      "type": "food",
+      "id": 10
     },
     {
-      "id": 11,
-      "fullName": "Riley Spears",
-      "email": "hoqejatul@mailinator.com",
-      "phone": "+1 (642) 903-9438",
-      "locationRegion": {
-        "id": 13,
-        "provinceId": "38",
-        "provinceName": "Tỉnh Thanh Hóa",
-        "districtId": "386",
-        "districtName": "Huyện Bá Thước",
-        "wardId": "14923",
-        "wardName": "Thị trấn Cành Nàng",
-        "address": "Aut qui voluptatem v"
+      "name": "Cumque recusandae I",
+      "image": {
+        "asset_id": "00cb5661579eae5f1af113f56e2db0ad",
+        "public_id": "fkge9t933x55wsnvsxcn",
+        "version": 1716433721,
+        "version_id": "341ee818f1c725c7e7ed7e44c6077694",
+        "signature": "bb5f5ae251473c248ca1bc99216a56822814beba",
+        "width": 1024,
+        "height": 768,
+        "format": "webp",
+        "resource_type": "image",
+        "created_at": "2024-05-23T03:08:41Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "pages": 1,
+        "bytes": 128484,
+        "type": "upload",
+        "etag": "1000a1efe8a04242e0cdfa21080312b0",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716433721/fkge9t933x55wsnvsxcn.webp",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716433721/fkge9t933x55wsnvsxcn.webp",
+        "folder": "",
+        "access_mode": "public"
       },
-      "balance": 10002100.05
+      "price": "32423",
+      "description": "Et porro dicta rerum",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
+      "type": "food",
+      "id": 11
     },
     {
-      "id": 12,
-      "fullName": "Uma Patel",
-      "email": "jehid@mailinator.com",
-      "phone": "+1 (962) 679-7767",
-      "locationRegion": {
-        "id": 14,
-        "provinceId": "04",
-        "provinceName": "Tỉnh Cao Bằng",
-        "districtId": "043",
-        "districtName": "Huyện Bảo Lạc",
-        "wardId": "01321",
-        "wardName": "Thị trấn Bảo Lạc",
-        "address": "Et optio non est nu"
+      "name": "Quia eum sint et si",
+      "image": {
+        "asset_id": "73c57f9e7a8b7c0de2b91b1dbdb95ee5",
+        "public_id": "tdcwndjvkqv6m9f1l7ke",
+        "version": 1716433734,
+        "version_id": "5d18926d6d097d77a71ba19b38f4f5cd",
+        "signature": "1da0024e2625adff84f47e019e6887b3a4b90304",
+        "width": 736,
+        "height": 736,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-23T03:08:54Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 40124,
+        "type": "upload",
+        "etag": "6319e02c11b49c4cbbbb4bdc668915ff",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716433734/tdcwndjvkqv6m9f1l7ke.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716433734/tdcwndjvkqv6m9f1l7ke.jpg",
+        "folder": "",
+        "access_mode": "public"
       },
-      "balance": 0
-    },
-    {
-      "id": 14,
-      "fullName": "Fredericka Webb",
-      "email": "zymemysyti@mailinator.com",
-      "phone": "+1 (622) 228-4386",
-      "locationRegion": {
-        "id": 16,
-        "provinceId": "25",
-        "provinceName": "Tỉnh Phú Thọ",
-        "districtId": "235",
-        "districtName": "Huyện Cẩm Khê",
-        "wardId": "08341",
-        "wardName": "Thị trấn Sông Thao",
-        "address": "Qui ullamco voluptat"
+      "price": "32432",
+      "description": "Consectetur proiden",
+      "status": {
+        "id": 2,
+        "name": "Ngừng bán"
       },
-      "balance": 0
-    },
-    {
-      "id": 15,
-      "fullName": "Bianca Sexton",
-      "email": "hoverone@mailinator.com",
-      "phone": "+1 (195) 804-1722",
-      "locationRegion": {
-        "id": 17,
-        "provinceId": "22",
-        "provinceName": "Tỉnh Quảng Ninh",
-        "districtId": "202",
-        "districtName": "Huyện Ba Chẽ",
-        "wardId": "06970",
-        "wardName": "Thị trấn Ba Chẽ",
-        "address": "Pariatur Velit offi"
-      },
-      "balance": 0
-    },
-    {
-      "id": 16,
-      "fullName": "Ivor Norris",
-      "email": "fifo@mailinator.com",
-      "phone": "+1 (758) 802-2142",
-      "locationRegion": {
-        "id": 18,
-        "provinceId": "75",
-        "provinceName": "Tỉnh Đồng Nai",
-        "districtId": "739",
-        "districtName": "Huyện Cẩm Mỹ",
-        "wardId": "26350",
-        "wardName": "Xã Bảo Bình",
-        "address": "Nisi ab nihil labori"
-      },
-      "balance": 11000000000
-    },
-    {
-      "id": 17,
-      "fullName": "Kyla Wallace",
-      "email": "pabosavic@mailinator.com",
-      "phone": "+1 (731) 712-8245",
-      "locationRegion": {
-        "id": 19,
-        "provinceId": "62",
-        "provinceName": "Tỉnh Kon Tum",
-        "districtId": "610",
-        "districtName": "Huyện Đắk Glei",
-        "wardId": "23341",
-        "wardName": "Thị trấn Đắk Glei",
-        "address": "Hic ipsa et deserun"
-      },
-      "balance": 8900000000
-    },
-    {
-      "id": 18,
-      "fullName": "Barrett Oneill",
-      "email": "raqyq@mailinator.com",
-      "phone": "+1 (921) 387-7393",
-      "locationRegion": {
-        "id": 20,
-        "provinceId": "37",
-        "provinceName": "Tỉnh Ninh Bình",
-        "districtId": "373",
-        "districtName": "Huyện Gia Viễn",
-        "wardId": "14464",
-        "wardName": "Thị trấn Me",
-        "address": "Eiusmod dicta est a "
-      },
-      "balance": 50
+      "type": "food",
+      "id": 12
     }
   ],
-  "transfers": [
+  "drink": [
     {
-      "id": 1,
-      "transactionAmount": 1100000000,
-      "transferAmount": 1000000000,
-      "senderId": 17,
-      "recipientId": 17,
-      "createdAt": "2021-12-12 19:12:39 +0700",
-      "feesAmount": 100000000,
-      "fees": 10,
-      "recipientName": "Kyla Wallace",
-      "senderName": "Kyla Wallace",
-      "createdOn": "2021-12-12 19:12:39 +0700"
+      "name": "Bánh lọc",
+      "image": {
+        "asset_id": "5a8ed93f96ec24b8948a8766c059fc8f",
+        "public_id": "zqkurdjelspu0rdenfsw",
+        "version": 1716364779,
+        "version_id": "28ed8298d3ee83c5fcbf220d3ca18a3e",
+        "signature": "53df0331a3e9b885595375cc3e263cd9eb1dae1c",
+        "width": 640,
+        "height": 466,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T07:59:39Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 76518,
+        "type": "upload",
+        "etag": "b00ff20c5861ae52c4fdea4ece39eafa",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716364779/zqkurdjelspu0rdenfsw.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716364779/zqkurdjelspu0rdenfsw.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "3000",
+      "description": "Bánh lọc",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
+      "id": 1
+    },
+    {
+      "name": "Suscipit est labore",
+      "image": {
+        "asset_id": "1b6b4b2be8b72becb86fbb5c4014602d",
+        "public_id": "toizjbxjalvf4bhjatqi",
+        "version": 1716367362,
+        "version_id": "826ed3fae0d31136c684294718a39357",
+        "signature": "e5a1e0899586d0109aa7ec9e0b47a44dc0518e9f",
+        "width": 600,
+        "height": 400,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T08:42:42Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 107297,
+        "type": "upload",
+        "etag": "8f0981204fc68db84a2278a09c6b7e97",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716367362/toizjbxjalvf4bhjatqi.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716367362/toizjbxjalvf4bhjatqi.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "234",
+      "description": "Consequatur iusto o",
+      "status": {
+        "id": 2,
+        "name": "Ngừng bán"
+      },
+      "id": 2,
+      "index": 1
     }
   ],
-  "persons": [
+  "specialty": [
     {
-      "fullName": "Camille Olsen",
-      "balance": 4890,
-      "email": "qufotudimo@mailinator.com",
-      "phone": "+1 (544) 375-6135",
-      "address": "Quae cillum nisi sit",
-      "id": 41,
-      "transactionAmount": 5.5,
-      "selectFullNameNotId": "42",
-      "transferAmount": "05",
-      "fees": "10"
-    },
-    {
-      "fullName": "Sharon Evans",
-      "balance": 55549.5,
-      "email": "nivan@mailinator.com",
-      "phone": "+1 (597) 167-7516",
-      "address": "Sunt tempor autem fu",
-      "id": 42,
-      "selectFullNameNotId": "41",
-      "transferAmount": "05",
-      "fees": "10",
-      "transactionAmount": "055555"
-    },
-    {
-      "fullName": "Sharon Evans",
-      "balance": 61110,
-      "email": "sapo@mailinator.com",
-      "phone": "+1 (413) 319-5572",
-      "address": "Aspernatur adipisci ",
-      "id": 43,
-      "transactionAmount": "05555"
-    },
-    {
-      "fullName": "Alexander Maynard",
-      "email": "nyqu@mailinator.com",
-      "phone": "+1 (524) 338-4179",
-      "address": "Iusto provident rep",
-      "balance": 0,
-      "deleted": 0,
-      "id": 44
-    },
-    {
-      "fullName": "Blythe Howe",
-      "email": "bufamed@mailinator.com",
-      "phone": "+1 (411) 932-7319",
-      "address": "Quia ut id et except",
-      "balance": 0,
-      "deleted": 0,
-      "id": 45
-    },
-    {
-      "fullName": "Flynn Baldwin",
-      "balance": 0,
-      "email": "dymozyvob@mailinator.com",
-      "phone": "+1 (186) 585-4086",
-      "address": "Ipsam reprehenderit",
-      "id": 46
-    },
-    {
-      "fullName": "Flynn Baldwin",
-      "balance": 0,
-      "email": "dymozyvob@mailinator.com",
-      "phone": "+1 (186) 585-4086",
-      "address": "Ipsam reprehenderit",
-      "id": 47
-    },
-    {
-      "fullName": "Flynn Baldwin",
-      "balance": 0,
-      "email": "dymozyvob@mailinator.com",
-      "phone": "+1 (186) 585-4086",
-      "address": "Ipsam reprehenderit",
-      "id": 48
-    },
-    {
-      "fullName": "Isabella Gray",
-      "email": "nyja@mailinator.com",
-      "phone": "+1 (694) 946-7664",
-      "address": "Adipisicing dolore c",
-      "balance": 0,
-      "deleted": 0,
-      "id": 49
-    },
-    {
-      "fullName": "Ann Mitchell",
-      "email": "wofuj@mailinator.com",
-      "phone": "+1 (535) 903-7727",
-      "address": "Quia velit pariatur",
-      "balance": 0,
-      "deleted": 0,
-      "id": 50
-    },
-    {
-      "fullName": "Ariel Lott",
-      "email": "xodevo@mailinator.com",
-      "phone": "+1 (204) 279-9425",
-      "address": "Velit omnis at elit",
-      "balance": 0,
-      "deleted": 0,
-      "id": 51
+      "name": "Bánh lọc",
+      "image": {
+        "asset_id": "5a8ed93f96ec24b8948a8766c059fc8f",
+        "public_id": "zqkurdjelspu0rdenfsw",
+        "version": 1716364779,
+        "version_id": "28ed8298d3ee83c5fcbf220d3ca18a3e",
+        "signature": "53df0331a3e9b885595375cc3e263cd9eb1dae1c",
+        "width": 640,
+        "height": 466,
+        "format": "jpg",
+        "resource_type": "image",
+        "created_at": "2024-05-22T07:59:39Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 76518,
+        "type": "upload",
+        "etag": "b00ff20c5861ae52c4fdea4ece39eafa",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716364779/zqkurdjelspu0rdenfsw.jpg",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716364779/zqkurdjelspu0rdenfsw.jpg",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": "3000",
+      "description": "Bánh lọc",
+      "status": {
+        "id": 1,
+        "name": "Đang bán"
+      },
+      "id": 1
     }
   ]
 }
