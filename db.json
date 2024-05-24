@@ -106,7 +106,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "3000",
+      "price": 3000,
       "description": "Bánh lọc",
       "status": {
         "id": 1,
@@ -140,7 +140,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "15000",
+      "price": 15000,
       "description": "Cơm hến",
       "status": {
         "id": 1,
@@ -174,7 +174,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "030000",
+      "price": 30000,
       "description": "Bún thịt nướng nước lèo",
       "status": {
         "id": 1,
@@ -208,7 +208,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "1000",
+      "price": 1000,
       "description": "Bánh bèo",
       "status": {
         "id": 1,
@@ -242,7 +242,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "2000",
+      "price": 2000,
       "description": "Bánh nậm",
       "status": {
         "id": 1,
@@ -276,7 +276,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "30000",
+      "price": 30000,
       "description": "Bánh ướt",
       "status": {
         "id": 1,
@@ -311,7 +311,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "40000",
+      "price": 40000,
       "description": "Hến xào",
       "status": {
         "id": 1,
@@ -345,7 +345,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "30000",
+      "price": 30000,
       "description": "Bún bò, giò, chả",
       "status": {
         "id": 2,
@@ -380,7 +380,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "10000",
+      "price": 10000,
       "description": "Nem lụi",
       "status": {
         "id": 2,
@@ -415,7 +415,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "32432",
+      "price": 32432,
       "description": "Ut id neque doloribu",
       "status": {
         "id": 1,
@@ -450,7 +450,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "32423",
+      "price": 32423,
       "description": "Et porro dicta rerum",
       "status": {
         "id": 1,
@@ -484,7 +484,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "32432",
+      "price": 32432,
       "description": "Consectetur proiden",
       "status": {
         "id": 2,
@@ -520,7 +520,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "3000",
+      "price": 3000,
       "description": "Bánh lọc",
       "status": {
         "id": 1,
@@ -553,7 +553,7 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "234",
+      "price": 234,
       "description": "Consequatur iusto o",
       "status": {
         "id": 2,
@@ -589,13 +589,27 @@
         "folder": "",
         "access_mode": "public"
       },
-      "price": "3000",
+      "price": 3000,
       "description": "Bánh lọc",
       "status": {
         "id": 1,
         "name": "Đang bán"
       },
       "id": 1
+    }
+  ],
+  "carts": [
+    {
+      "id": "23423423ewr",
+      "products": [],
+      "userId": "1",
+      "totalProdutcs": 0
+    }
+    
+  ],
+  "bills": [
+    {
+      "id": "23423423ewr"
     }
   ]
 }
