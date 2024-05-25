@@ -7,7 +7,8 @@
       "dob": "tuan",
       "email": "tuan",
       "address": "tuan",
-      "sex": "khac"
+      "sex": "khac",      "phone": "0334103934"
+
     },
     {
       "id": "5830",
@@ -16,7 +17,8 @@
       "username": "Quibusdam id a quae ",
       "password": "Obcaecati veniam mi",
       "dob": "1980-02-20",
-      "email": "anhtuan@gmai.com"
+      "email": "anhtuan@gmai.com",      "phone": "0334103934"
+
     },
     {
       "id": "1703",
@@ -25,18 +27,20 @@
       "username": "Inventore architecto",
       "password": "Esse enim quia conse",
       "dob": "1900-11-14",
-      "email": "anhtuan1@gmai.com"
+      "email": "anhtuan1@gmai.com",      "phone": "0334103934"
+
     },
     {
       "id": "a757",
       "address": "18/72 Khúc Thừa Dụ, phường Thủy Dương, Thị xã Hương Thủy",
       "sex": "Nữ",
       "username": "admin",
-      "password": "123123",
+      "password": "1",
       "dob": "1995-05-05",
       "email": "tuyettuyet@gmail.com",
       "role": "admin",
-      "name": "Bà Tuyết"
+      "name": "Bà Tuyết",
+      "phone": "0334103934"
     },
     {
       "id": "8ef8",
@@ -46,7 +50,8 @@
       "password": "Nisi et voluptatum c",
       "dob": "2005-06-28",
       "email": "tuyettuyet1@gmail.com",
-      "role": "client"
+      "role": "client",      "phone": "0334103934"
+
     },
     {
       "address": "Quibusdam molestias ",
@@ -56,17 +61,19 @@
       "dob": "1971-11-28",
       "email": "tuyettuyet2@gmail.com",
       "role": "client",
-      "id": "Vr8kW-J"
+      "id": "Vr8kW-J",      "phone": "0334103934"
+
     },
     {
       "address": "Khúc Thừa Dụ",
       "sex": "Nam",
       "username": "anhtuan",
-      "password": "123123",
+      "password": "2",
       "dob": "2006-01-10",
       "email": "anhtuan12@gmai.com",
       "role": "client",
-      "id": "LM-fBU5"
+      "id": "LM-fBU5",      "phone": "0334103934"
+
     },
     {
       "address": "Ea fugit quia deser",
@@ -77,7 +84,8 @@
       "email": "a@gmail.com",
       "role": "client",
       "created": "2024-5-22",
-      "id": "L0McOF3"
+      "id": "L0McOF3",      "phone": "0334103934"
+
     }
   ],
   "food": [
@@ -561,6 +569,40 @@
       },
       "id": 2,
       "index": 1
+    },
+    {
+      "name": "In qui libero praese",
+      "image": {
+        "asset_id": "63066fdad7eb3863ac6f0a328ee80124",
+        "public_id": "ybzaeyfo1th3wnom8kxx",
+        "version": 1716622299,
+        "version_id": "800bab60e402fcd98aba4dd958c140ff",
+        "signature": "88d31709251f0308017a7cce6d7a9881ebd02c79",
+        "width": 1366,
+        "height": 768,
+        "format": "png",
+        "resource_type": "image",
+        "created_at": "2024-05-25T07:31:39Z",
+        "tags": [
+          "browser-upload"
+        ],
+        "bytes": 188924,
+        "type": "upload",
+        "etag": "fe0996b334e629c5595ebcd38452cd6d",
+        "placeholder": false,
+        "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716622299/ybzaeyfo1th3wnom8kxx.png",
+        "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716622299/ybzaeyfo1th3wnom8kxx.png",
+        "folder": "",
+        "access_mode": "public"
+      },
+      "price": 1131,
+      "description": "Quibusdam nemo deser",
+      "status": {
+        "id": 2,
+        "name": "Ngừng bán"
+      },
+      "type": "drink",
+      "id": 3
     }
   ],
   "specialty": [
@@ -605,11 +647,6 @@
       "userId": "1",
       "totalProdutcs": 0
     }
-    
   ],
-  "bills": [
-    {
-      "id": "23423423ewr"
-    }
-  ]
+  "bills": []
 }

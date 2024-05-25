@@ -1,7 +1,7 @@
-const jsonServer = require('json-server')
-const server = jsonServer.create()
-const router = jsonServer.router('db.json')
-const middlewares = jsonServer.defaults()
+import { create, router as _router, defaults, bodyParser } from 'json-server'
+const server = create()
+const router = _router('db.json')
+const middlewares = defaults()
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares)
@@ -13,7 +13,7 @@ server.get('/echo', (req, res) => {
 
 // To handle POST, PUT and PATCH you need to use a body-parser
 // You can use the one used by JSON Server
-server.use(jsonServer.bodyParser)
+server.use(bodyParser)
 server.use((req, res, next) => {
   if (req.method === 'POST') {
     req.body.createdAt = Date.now()
@@ -24,6 +24,6 @@ server.use((req, res, next) => {
 
 // Use default router
 server.use('/api',router)
-server.listen(3000, () => {
+server.listen(3300, () => {
   console.log('JSON Server is running')
 })
