@@ -59,6 +59,18 @@
       "role": "client",
       "created": "2024-5-27",
       "id": "H9lfZRc"
+    },
+    {
+      "address": "Consequuntur sunt et",
+      "sex": "Nam",
+      "username": "anhtuan",
+      "password": "2",
+      "dob": "2008-01-30",
+      "email": "a12@gmai.com",
+      "phone": "0338943168",
+      "role": "client",
+      "created": "2024-5-27",
+      "id": "mZxK79Z"
     }
   ],
   "food": [
@@ -605,11 +617,12 @@
       "price": 11000,
       "description": "Bia huda",
       "status": {
-        "id": 1,
-        "name": "Đang bán"
+        "id": 2,
+        "name": "Ngừng bán"
       },
       "type": "drink",
-      "id": 7
+      "id": 7,
+      "index": 1
     }
   ],
   "specialty": [
@@ -982,15 +995,17 @@
       "price": 500000,
       "description": "Rượu nhất dạ",
       "status": {
-        "id": 1,
-        "name": "Đang bán"
+        "id": 2,
+        "name": "Ngừng bán"
       },
       "type": "specialty",
-      "id": 11
+      "id": 11,
+      "index": 1
     }
   ],
   "bills": [
     {
+      "delete": 0,
       "userId": "L0McOF3",
       "phone": "0334103934",
       "products": [
@@ -1197,6 +1212,7 @@
       "createdInProgress": "2024-5-25 8:57:22"
     },
     {
+      "delete": 0,
       "userId": "L0McOF3",
       "phone": "0334103934",
       "products": [
@@ -1289,7 +1305,8 @@
       "createdInProgress": "2024-5-25 8:58:22"
     },
     {
-      "userId": null,
+      "delete": 0,
+      "userId": "undefined",
       "status": "Đã hoàn thành",
       "totalProducts": 3820000,
       "totalQuantity": 125,
@@ -1419,7 +1436,8 @@
       "createdInProgress": "2024-5-26 10:36:32"
     },
     {
-      "userId": null,
+      "delete": 0,
+      "userId": "undefined",
       "status": "Đã hoàn thành",
       "totalProducts": 4800000,
       "totalQuantity": 400,
@@ -1587,7 +1605,8 @@
       "createdInProgress": "2024-5-26 10:37:23"
     },
     {
-      "userId": null,
+      "delete": 0,
+      "userId": "undefined",
       "status": "Đã hoàn thành",
       "totalProducts": 6100000,
       "totalQuantity": 400,
@@ -1755,7 +1774,8 @@
       "createdInProgress": "2024-5-27 12:10:45"
     },
     {
-      "userId": "L0McOF3",
+      "delete": 0,
+      "userId": "undefined",
       "phone": "0334103934",
       "products": [
         {
@@ -1958,6 +1978,7 @@
       "id": 6
     },
     {
+      "delete": 0,
       "products": [
         {
           "product": {
@@ -2156,9 +2177,269 @@
       "userPhone": "0334103934",
       "address": "1",
       "request-description": "",
-      "status": "Chờ xác nhận",
+      "status": "Đã xác nhận",
       "created": "2024-5-27 16:41:11",
-      "id": 7
+      "id": 7,
+      "createdWaiting": "2024-5-27 21:31:30"
+    },
+    {
+      "delete": 0,
+      "userId": "undefined",
+      "status": "Đã hoàn thành",
+      "totalProducts": 170950000,
+      "totalQuantity": 2637,
+      "created": "2024-5-27 21:48:8",
+      "request-description": "0334103934",
+      "address": "0334103934",
+      "phone": "0334103934",
+      "products": [
+        {
+          "product": {
+            "name": "Mắm nêm Cô Ri",
+            "image": {
+              "asset_id": "50232d93be2bee5e35b86ab331e3b796",
+              "public_id": "fob9qmscdbiz3snilmez",
+              "version": 1716774259,
+              "version_id": "272a52a76db46d85d333120cf4c238ba",
+              "signature": "c3915c7b2b6ecb677eebcc9b31dd86c91f3af888",
+              "width": 720,
+              "height": 1298,
+              "format": "jpg",
+              "resource_type": "image",
+              "created_at": "2024-05-27T01:44:19Z",
+              "tags": [
+                "browser-upload"
+              ],
+              "bytes": 149575,
+              "type": "upload",
+              "etag": "48ac9239d61f69bbdeb008a624a6f433",
+              "placeholder": false,
+              "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716774259/fob9qmscdbiz3snilmez.jpg",
+              "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716774259/fob9qmscdbiz3snilmez.jpg",
+              "folder": "",
+              "access_mode": "public"
+            },
+            "price": 30000,
+            "description": "Mắm nêm Cô Ri",
+            "status": {
+              "id": 1,
+              "name": "Đang bán"
+            },
+            "type": "specialty",
+            "id": 1
+          },
+          "quantity": 112,
+          "totalProduct": 3360000
+        },
+        {
+          "product": {
+            "name": "Hạt sen",
+            "image": {
+              "asset_id": "ea9735e7e43dd0028bcc2413f3a0b9ab",
+              "public_id": "g0gcpdz5glmm5zqjns3z",
+              "version": 1716774295,
+              "version_id": "02335fad3fb9ae92359c892960e340dd",
+              "signature": "e15a3ff18ba88aa5fc94c7c783cb19a7ef839332",
+              "width": 540,
+              "height": 960,
+              "format": "jpg",
+              "resource_type": "image",
+              "created_at": "2024-05-27T01:44:55Z",
+              "tags": [
+                "browser-upload"
+              ],
+              "bytes": 76384,
+              "type": "upload",
+              "etag": "107f02eb02d7ce110ca4b8c6e68b6186",
+              "placeholder": false,
+              "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716774295/g0gcpdz5glmm5zqjns3z.jpg",
+              "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716774295/g0gcpdz5glmm5zqjns3z.jpg",
+              "folder": "",
+              "access_mode": "public"
+            },
+            "price": 100000,
+            "description": "Hạt sen",
+            "status": {
+              "id": 1,
+              "name": "Đang bán"
+            },
+            "type": "specialty",
+            "id": 2
+          },
+          "quantity": 1312,
+          "totalProduct": 131200000
+        },
+        {
+          "product": {
+            "name": "Nón lá",
+            "image": {
+              "asset_id": "40a4dce346d406396769c0c79db04775",
+              "public_id": "pejj6l2iggti8ubegggq",
+              "version": 1716774320,
+              "version_id": "ec9acf39c1c26a03f389bbb9bd79b2a7",
+              "signature": "2d9e9684e199e2a210507bc7ead64d71adbd4c53",
+              "width": 900,
+              "height": 900,
+              "format": "jpg",
+              "resource_type": "image",
+              "created_at": "2024-05-27T01:45:20Z",
+              "tags": [
+                "browser-upload"
+              ],
+              "bytes": 236835,
+              "type": "upload",
+              "etag": "864f33c5d005e19392d8fe810f08d0e8",
+              "placeholder": false,
+              "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716774320/pejj6l2iggti8ubegggq.jpg",
+              "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716774320/pejj6l2iggti8ubegggq.jpg",
+              "folder": "",
+              "access_mode": "public"
+            },
+            "price": 30000,
+            "description": "Nón lá",
+            "status": {
+              "id": 1,
+              "name": "Đang bán"
+            },
+            "type": "specialty",
+            "id": 3
+          },
+          "quantity": 1213,
+          "totalProduct": 36390000
+        }
+      ],
+      "id": 8,
+      "createdWaiting": "2024-5-27 22:45:56",
+      "createdConfirm": "2024-5-27 22:49:33",
+      "createdInProgress": "2024-5-27 22:51:34"
+    },
+    {
+      "userId": "undefined",
+      "status": "Chờ xác nhận",
+      "totalProducts": 1920000,
+      "totalQuantity": 36,
+      "created": "2024-5-27 23:17:9",
+      "request-description": "0338943168",
+      "address": "0338943168",
+      "phone": "0338943168",
+      "products": [
+        {
+          "product": {
+            "name": "Mắm nêm Cô Ri",
+            "image": {
+              "asset_id": "50232d93be2bee5e35b86ab331e3b796",
+              "public_id": "fob9qmscdbiz3snilmez",
+              "version": 1716774259,
+              "version_id": "272a52a76db46d85d333120cf4c238ba",
+              "signature": "c3915c7b2b6ecb677eebcc9b31dd86c91f3af888",
+              "width": 720,
+              "height": 1298,
+              "format": "jpg",
+              "resource_type": "image",
+              "created_at": "2024-05-27T01:44:19Z",
+              "tags": [
+                "browser-upload"
+              ],
+              "bytes": 149575,
+              "type": "upload",
+              "etag": "48ac9239d61f69bbdeb008a624a6f433",
+              "placeholder": false,
+              "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716774259/fob9qmscdbiz3snilmez.jpg",
+              "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716774259/fob9qmscdbiz3snilmez.jpg",
+              "folder": "",
+              "access_mode": "public"
+            },
+            "price": 30000,
+            "description": "Mắm nêm Cô Ri",
+            "status": {
+              "id": 1,
+              "name": "Đang bán"
+            },
+            "type": "specialty",
+            "id": 1
+          },
+          "quantity": "12",
+          "totalProduct": 360000
+        },
+        {
+          "product": {
+            "name": "Hạt sen",
+            "image": {
+              "asset_id": "ea9735e7e43dd0028bcc2413f3a0b9ab",
+              "public_id": "g0gcpdz5glmm5zqjns3z",
+              "version": 1716774295,
+              "version_id": "02335fad3fb9ae92359c892960e340dd",
+              "signature": "e15a3ff18ba88aa5fc94c7c783cb19a7ef839332",
+              "width": 540,
+              "height": 960,
+              "format": "jpg",
+              "resource_type": "image",
+              "created_at": "2024-05-27T01:44:55Z",
+              "tags": [
+                "browser-upload"
+              ],
+              "bytes": 76384,
+              "type": "upload",
+              "etag": "107f02eb02d7ce110ca4b8c6e68b6186",
+              "placeholder": false,
+              "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716774295/g0gcpdz5glmm5zqjns3z.jpg",
+              "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716774295/g0gcpdz5glmm5zqjns3z.jpg",
+              "folder": "",
+              "access_mode": "public"
+            },
+            "price": 100000,
+            "description": "Hạt sen",
+            "status": {
+              "id": 1,
+              "name": "Đang bán"
+            },
+            "type": "specialty",
+            "id": 2
+          },
+          "quantity": "12",
+          "totalProduct": 1200000
+        },
+        {
+          "product": {
+            "name": "Nón lá",
+            "image": {
+              "asset_id": "40a4dce346d406396769c0c79db04775",
+              "public_id": "pejj6l2iggti8ubegggq",
+              "version": 1716774320,
+              "version_id": "ec9acf39c1c26a03f389bbb9bd79b2a7",
+              "signature": "2d9e9684e199e2a210507bc7ead64d71adbd4c53",
+              "width": 900,
+              "height": 900,
+              "format": "jpg",
+              "resource_type": "image",
+              "created_at": "2024-05-27T01:45:20Z",
+              "tags": [
+                "browser-upload"
+              ],
+              "bytes": 236835,
+              "type": "upload",
+              "etag": "864f33c5d005e19392d8fe810f08d0e8",
+              "placeholder": false,
+              "url": "http://res.cloudinary.com/dw4xpd646/image/upload/v1716774320/pejj6l2iggti8ubegggq.jpg",
+              "secure_url": "https://res.cloudinary.com/dw4xpd646/image/upload/v1716774320/pejj6l2iggti8ubegggq.jpg",
+              "folder": "",
+              "access_mode": "public"
+            },
+            "price": 30000,
+            "description": "Nón lá",
+            "status": {
+              "id": 1,
+              "name": "Đang bán"
+            },
+            "type": "specialty",
+            "id": 3
+          },
+          "quantity": "12",
+          "totalProduct": 360000
+        }
+      ],
+      "delete": 0,
+      "id": 9
     }
   ],
   "img": [
